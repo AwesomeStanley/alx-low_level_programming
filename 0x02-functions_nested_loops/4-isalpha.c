@@ -7,7 +7,7 @@
  * Return: alpha or not
  */
 
-int int _isalpha(int c)
+int _isalpha(int c)
 {
 	int alpha;
 
