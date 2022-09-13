@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _isaplha - this program prints  find out if character is a letter
+ * _isaplha - shows 1 if the input is a letter
  *
  * @c: character value
  *
  * Return: alpha or not
  */
-int _isalpha(int c)
+int int _isalpha(int c)
 {
 	int alpha;
 
