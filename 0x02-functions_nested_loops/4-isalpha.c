@@ -6,6 +6,7 @@
  *
  * Return: alpha or not
  */
+
 int int _isalpha(int c)
 {
 	int alpha;
