@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 /**
  * print_alphabet - this program prints alphabet
  *
