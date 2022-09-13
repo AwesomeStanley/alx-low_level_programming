@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isaplha - this program prints out if character is a letter
+ * _isaplha - this program prints  find out if character is a letter
  *
  * @c: character value
  *
