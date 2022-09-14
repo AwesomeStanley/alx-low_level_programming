@@ -1,16 +1,24 @@
 #include "main.h"
 /**
- * _isaplha - shows 1 if the input is a letter
- *
+ * _isapha - this program prints letters
  * @c: character value
- *
- * Return: alpha or not
+ * Return: 0
  */
-
-int _isalpha(int c)
+int _isapha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	int alpha;
+
+	if (c >= 'A' && c <= 'Z')
 	{
-		return (1);
+		alpha = 1;
 	}
+	else if (c >= 'a' && c <= 'z')
+	{
+		alpha = 1;
+	}
+	else
+	{
+		alpha = 0;
+	}
+	return (0);
 }
