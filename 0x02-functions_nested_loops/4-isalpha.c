@@ -4,7 +4,7 @@
  * @c: character value
  * Return: 0
  */
-int _isapha(int c)
+int int _isapha(int c)
 {
 	int alpha;
 
