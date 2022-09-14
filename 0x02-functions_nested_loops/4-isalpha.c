@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int int _isapha(int c)
+int _isapha(int c)
 {
 	int alpha;
 
