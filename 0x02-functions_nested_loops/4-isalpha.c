@@ -1,9 +1,12 @@
 #include "main.h"
 /**
  * _isapha - this program prints letters
+ *
  * @c: character value
+ *
  * Return: 0
  */
+
 int int _isapha(int c)
 {
 	int alpha;
