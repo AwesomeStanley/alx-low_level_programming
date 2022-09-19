@@ -5,7 +5,7 @@
  * @s: value
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	char n;
 
