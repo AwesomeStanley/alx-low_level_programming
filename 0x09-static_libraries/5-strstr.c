@@ -1,32 +1,31 @@
 #include "main.h"
 
 /**
- * _strstr - function locate
- * @haystack: pointer to char
- * @needle: pointer to char
- * Return: 0
+ * _strstr - this function gets the legth in bytes
+ * @haystack: string
+ * @needle: substring to find
+ * Return: dest
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *result = haystack, *fneedle = needle;
+	int i;
+	int j;
+	int k;
 
-	while (*haystack)
+	for (i = 0; haystack[i]; i++)
 	{
-		while (*needle)
+		for (k = i, j = 0; needle[j] != '\0'; j++, k++)
 		{
-			if (*haystack++ != *needle++)
+			if (haystack[k] != needle[j] || haystack[k] == '\0')
 			{
 				break;
 			}
 		}
-		if (!*needle)
+		if (needle[j] == 0)
 		{
-			return (result);
+			return (haystack + i);
 		}
-		needle = fneedle;
-		result++;
-		haystack = result;
-		}
-		return (0);
+	}
+	return (0);
 }
