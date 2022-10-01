@@ -1,24 +1,18 @@
 #include "main.h"
+
 /**
- * _islower - this program finds out if a letter is lowercase or not
+ * _islower - check the code for Holberton School students.
  *
- * @c: letter value
+ * @c:  is a parameter
  *
- * Return: num
+ * Return: Always 0.
  */
 
 int _islower(int c)
 {
-	int num;
-
-	if (c >= 'a' && c <= 'z')
+	if (c >= 97 && c <= 122)
 	{
-		num = 1;
+		return (1);
 	}
-	else
-	{
-		num = 0;
-	}
-	return (num);
+	return (0);
 }
-
